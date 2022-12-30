@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap"
+        rel="stylesheet">
+
+    <style>
+        body {
+            background-color: #161F6D;
+            margin: 42px;
+        }
+
+        h1 {
+            color: white;
+            font-size: 45px;
+            font-style: bold;
+            text-align: center;
+            font-family: 'Roboto', Arial, sans-serif;
+        }
+
+        p {
+            color: #00ABE1;
+            font-family: 'Roboto', Arial, Verdana, 'Lucida Grande', 'Lucida Sans', sans-serif;
+            font-size: 24px;
+            text-align: justify;
+        }
+
+        img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        a {
+            color: #E5B9A8;
+        }
+
+        input {
+            font-size: 18px;
+            width: 18%;
+            text-align: center;
+            font-family: 'Roboto', Arial, Verdana, 'Lucida Grande', 'Lucida Sans', sans-serif;
+        }
+
+        li {
+            list-style-type: none;
+            float: left;
+            background-color: #cbeeee;
+            border-right: 1px solid #161F6D;
+            padding: 12px 0px 12px 0px;
+            font-size: 20px;
+        }
+
+        li a {
+            font-family: 'Roboto', 'Times New Roman', Times, serif;
+            font-style: bold;
+            font-weight: 600;
+            color: rgb(27, 124, 198);
+            text-align: center;
+            text-decoration: none;
+            padding: 15px;
+        }
+
+        a:hover {
+            text-decoration: underline;
+            background-color: white;
+
+        }
+
+        span {
+            font-family: 'Roboto', Courier, monospace;
+            font-style: light;
+            color: #E5B9A8;
+        }
+
+        .active {
+            background-color: #101544;
+            padding: 12px;
+        }
+
+        #horbar {
+            padding-left: 0px;
+            margin-top: 42px;
+            overflow: hidden;
+        }
+    </style>
+    <title>Purchasing Page</title>
+</head>
+
+<body>
+    <h1>Purchasing HealthScope</h1>
+    <p style="text-align: center; color:#cbeeee; font-size:18px;"><img src="images/purchase.png" alt="purchase image"
+            title="purchase visual" width="70%" height="70%">
+        Image taken from <a
+            href="https://easydigitaldownloads.com/blog/mastering-the-purchase-process-for-digital-products/"
+            target="_blank">Easydigitaldownloads.com</a>
+    </p>
+
+    <p style="padding: 0px 25 px 0px 25px;">
+        To purchase <b>HealthScope services</b>, <Span>potential customers could access the sales website</Span>, where they could pay in
+        cash or credit, or they could request their health provider to sign them up. Because we understand the value of
+        our product and its potential urgency, we would implement payment plans so that customers who need to spread
+        their payments out over a long period can have immediate access to our service. <span>This will help us look out for
+        customers' <b>best interests</b> and help <b>ensure loyalty.</b></span>
+    </p>
+    <p style="padding: 0px 25 px 0px 25px;">
+        HealthScope would be advertised on tv and on relevant websites such as Web M.D to reach as many customers as
+        possible. We understand that many people who could make use of our product will not have access to TV or the
+        internet due to <i>various potential disabilities and economic conditions.</i> Therefore, <span>we would partner with clinics
+        and primary care providers to reach these customers via their doctors.</span> We want as many people as possible to
+        have the opportunity to purchase HealthScope and give themselves <span>the peace of mind</span> that they <b>deserve.</b>
+    </p>
+    <p style="padding: 0px 25 px 0px 25px;">
+        If possible, we would make this available to <span>purchase via insurance</span> so that all people who need it can access
+        HealthScope, not only those who can afford it outright. As our company grows, we will become better able to
+        support <span>philanthropic programs.</span> For example, we may <b>give a portion of each purchase</b> to a fund that will allow us
+        to provide <span><b>free</b> HealthScope services</span> to the most vulnerable members of our community, such as the elderly or
+        veterans.
+    </p>
+
+    <div style="border: solid 10px #101544; border-radius: 25px; text-align: center; padding: 10px;">
+        <p style="text-align:center; color: #a4ecec; margin-bottom: 0px;"> How much would you pay for HealthScope?
+        <form target="_blank" action="https://www.w3schools.com/action_page.php" method="get"
+            style="color: #cbeeee; font-family: 'Roboto', Impact, sans-serif; font-size: 18px; text-align: center;">
+            <br>
+            $<input type="number" name="servicevalue" min="0" max="5000" placeholder="Amount">.00
+            <div style="padding-top:20px">
+                <input type="submit" value="Enter Value">
+            </div>
+        </form> <br>
+        </p>
+    </div>
+
+
+</body>
+
+<footer>
+
+    <ul id="horbar">
+        <li>
+            <a href="index.html">HealthScope</a>
+
+        </li>
+        <li>
+            <a href="function.html">How it Works</a>
+
+        </li>
+        <li>
+            <a href="purchase.html" ; class="active">Purchase
+                HealthScope</a>
+        </li>
+
+
+
+    </ul>
+</footer>
+
+</html>
